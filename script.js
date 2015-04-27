@@ -68,6 +68,10 @@
       d3.select(this).select('rect').style('fill', 'white');
       return console.log('lala');
     });
+    bar.on('mouseout', function(d) {
+      d3.selectAll('rect').style('fill', '#337ab7');
+      return console.log('lala');
+    });
     bar.on('click', function(d) {
       return d3.select(this).select('rect').style('fill', 'white');
     });

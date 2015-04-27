@@ -67,16 +67,18 @@ createChart = () ->
     d3.select(this).select('rect')
       .style('fill','white')
       console.log 'lala'
+    ) 
+
+  bar.on('mouseout', (d) ->
+    d3.selectAll('rect')
+      .style('fill','#337ab7')
+      console.log 'lala'
     )
 
   bar.on('click', (d) ->
     d3.select(this).select('rect')
       .style('fill','white')
     )
-
-  # bar.on('mouseout', (d) ->
-  #   d3.selectAll('.bar rect').transition().style('fill','#337ab7')
-  #   )
 
   showDate = (d) ->
 $ ->
