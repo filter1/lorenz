@@ -1,4 +1,4 @@
-data = [{label:'⌀ Magdeburg', price:5.67}, {label:'⌀ Deutschland', price:7.07}, {label:'LorenzQuatier GmbH', price:24.10}]
+data = [{label:'⌀ Magdeburg', price:5.67}, {label:'⌀ Deutschland', price:7.07}, {label:'LorenzQuartier GmbH', price:24.10}]
 
 margin = {top: 20, right: 20, bottom: 30, left: 40}
 width = 400 - margin.left - margin.right

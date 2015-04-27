@@ -9,7 +9,7 @@
       label: '⌀ Deutschland',
       price: 7.07
     }, {
-      label: 'LorenzQuatier GmbH',
+      label: 'LorenzQuartier GmbH',
       price: 24.10
     }
   ];
